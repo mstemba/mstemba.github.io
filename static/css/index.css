@@ -1,0 +1,248 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust based on your requirements */
+}
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.results-carousel img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.subtitle {
+  font-size: 1rem; /* Resetting the font-size for subtitle */
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}
+
+
+
+.results-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.results-grid .item {
+  flex: 1 1 calc(33.333% - 20px); /* Adjust the width for a 3-column layout */
+  max-width: calc(33.333% - 20px); /* Ensure items don't grow too large */
+  box-sizing: border-box;
+}
+.results-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.results-grid h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .results-grid .item {
+      flex: 1 1 calc(50% - 20px); /* 2-column layout for tablets and smaller */
+      max-width: calc(50% - 20px);
+  }
+}
+@media (max-width: 480px) {
+  .results-grid .item {
+      flex: 1 1 100%; /* 1-column layout for mobile devices */
+      max-width: 100%;
+  }
+}  
+
+
+.containerQA {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.carousel {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.item {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.video-container video {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.question-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffe0b2;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.answers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.answer {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.answer.correct {
+  background-color: #c8e6c9;
+}
+.answer.incorrect {
+  background-color: #ffccbc;
+}
+.answer img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.answer p {
+  margin-bottom: 10px;
+}
+.answer .icon {
+  font-size: 1.5em;
+}
